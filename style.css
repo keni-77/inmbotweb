@@ -219,3 +219,21 @@
   font-size: 14px;
   opacity: 0.8;
 }
+
+.footer-links {
+  text-align: right;
+  margin-top: -20px; /* 必要なら調整 */
+}
+
+.footer-links a {
+  display: inline-block; /* ← これで当たり判定が広がる */
+  padding: 12px 14px;     /* ← クリック範囲を広げる */
+  line-height: 1;          /* ← 下に伸びる原因を消す */
+  color: #ccc;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
