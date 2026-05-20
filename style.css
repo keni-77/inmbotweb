@@ -237,3 +237,36 @@
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+.policy-container {
+  max-width: 720px;
+  margin: 160px auto 80px; /* ← auto で左右中央寄せ */
+  padding: 40px 50px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.policy-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.policy-container h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.policy-container p, .policy-container li {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #222;
+  line-height: 1.8;
+}
+
+.policy-container ul {
+  padding-left: 20px;
+}
